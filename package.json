@@ -4,6 +4,8 @@
   "description": "A curio-provision interaction guide for the game Darkest Dungeon",
   "main": "main.js",
   "scripts": {
+    "bundle": "browserify display.js -t babelify -o main.js",
+    "bundle:watch": "watchify index.js -vd -t babelify -o main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,13 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^15.2.0",
+    "watchify": "^3.9.0"
   }
 }
