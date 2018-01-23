@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class Selector extends React.Component {
+export class Selector extends React.Component {
   constructor(props) {
     super(props);
     this.handleChange = this.handleChange.bind(this);
@@ -14,16 +14,13 @@ export default class Selector extends React.Component {
   render() {
     return (
       <div>
-        <select
-          id="locations"
-          onChange={this.handleChange}>
-
+        <select id="locations" onChange={this.handleChange}>
           <option value="Ruins">Ruins</option>
           <option value="Warrens">Warrens</option>
           <option value="Weald">Weald</option>
           <option value="Cove">Cove</option>
           <option value="Courtyard">Courtyard</option>
-          </select>
+        </select>
       </div>
     );
   }

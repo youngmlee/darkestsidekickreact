@@ -17,14 +17,14 @@ class Display extends React.Component {
   }
 
   render() {
-    return(
+    return (
       <div>
         <Selector onChange={this.changeName} />
         <Ruins name={this.state.name} />
       </div>
     );
   }
-});
+};
 
 ReactDOM.render(
   <Display />,
