@@ -20,7 +20,9 @@ class Display extends React.Component {
     return (
       <div>
         <Selector onChange={this.changeName} />
-        <Ruins name={this.state.name} />
+        <div className = "table">
+          <Ruins name={this.state.name} />
+        </div>
       </div>
     );
   }

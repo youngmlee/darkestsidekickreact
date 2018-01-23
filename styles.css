@@ -23,5 +23,24 @@
 
 #app {
   display: block;
-  color: white;
+  color: gold;
+}
+
+.curios {
+  display: block;
+  position: absolute;
+}
+
+.table {
+  display: block;
+}
+
+.curios td {
+  border: 1px solid white;
+}
+
+.curios img {
+  width: 60px;
+  height: 56px;
+  margin: auto;
 }
