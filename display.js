@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Selector } from './selector';
+import { Location } from './locationconditional'
 import { Ruins } from './ruins';
+import { Warrens } from './warrens';
+import { Weald } from './weald';
+import { Courtyard } from './courtyard';
+import { Cove } from './cove';
 
 class Display extends React.Component {
   constructor(props) {
@@ -21,7 +26,7 @@ class Display extends React.Component {
       <div>
         <Selector onChange={this.changeName} />
         <div className = "table">
-          <Ruins name={this.state.name} />
+          <Location name={this.state.name} />
         </div>
       </div>
     );
