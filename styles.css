@@ -44,3 +44,49 @@
   height: 56px;
   margin: auto;
 }
+
+.message {
+  position: absolute;
+  z-index: 2;
+  width: 66vw;
+  height: 136px;
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Cinzel', serif;
+  border: 2px gray outset;
+}
+
+.msg-text {
+  z-index: 2;
+  font-family: 'Cinzel Decorative', serif;
+  color: #bd9b21;
+}
+
+ul {
+  margin-top: 30px;
+  margin-right: 30px;
+  text-align: left;
+  list-style-type: none;
+}
+
+footer {
+  width: 90%;
+  height: 10px;
+  margin: 0 auto;
+  background-color: #1c1c1c;
+  border-left: thick #bd9b21 double;
+  border-right: thick #bd9b21 double;
+}
+
+footer p {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  font-family: sans-serif;
+  color: #bf9f00;
+  text-decoration: none;
+}

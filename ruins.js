@@ -35,6 +35,15 @@ export class Ruins extends React.Component {
             </tbody>
           </table>
         </div>
+        <div className="msg-text">
+          Your fate revealed:
+          <div className="message">
+            <ul>
+              <li className="msg">
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
