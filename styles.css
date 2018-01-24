@@ -11,6 +11,7 @@
   background-color: #000;
   border-left: thick #bd9b21 double;
   border-right: thick #bd9b21 double;
+  border-bottom: thick #bd9b21 double;
 }
 
 #dd-logo {
@@ -71,11 +72,9 @@ ul {
 
 footer {
   width: 90%;
-  height: 10px;
+  height: 2.4em;
   margin: 0 auto;
-  background-color: #1c1c1c;
-  border-left: thick #bd9b21 double;
-  border-right: thick #bd9b21 double;
+  background-color: #000;
 }
 
 footer p {
@@ -83,6 +82,7 @@ footer p {
   font-size: 0.8em;
   color: white;
   text-align: center;
+  margin-top: 1em;
 }
 
 footer a {
