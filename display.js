@@ -89,7 +89,7 @@ class Display extends React.Component {
     $('input').click(function () {
       var dataId = $(this).attr('data-id')
       var foundObj = findObjById(dataId, provisions)
-      $(this).closest('.location').find('.provdisplay').attr('src', foundObj.src)
+      $('.provdisplay').attr('src', foundObj.src)
     })
 
     var curios = [

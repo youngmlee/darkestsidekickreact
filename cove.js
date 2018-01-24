@@ -5,6 +5,14 @@ export class Cove extends React.Component {
     const name = this.props.name;
     return (
       <div className="curios">
+        <div className="button-box">
+          <input type="button" className="short" data-id="10" value="Short" />
+          <input type="button" className="med" data-id="11" value="Medium" />
+          <input type="button" className="long" data-id="12" value="Long" />
+          <div className="provisions-container">
+            <img className="provdisplay" src=" " />
+          </div>
+        </div>
         <div>
           <table>
             <tbody>

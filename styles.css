@@ -90,3 +90,35 @@ footer a {
   color: #bf9f00;
   text-decoration: none;
 }
+
+.button-box {
+  display: inline-block;
+}
+
+.button-box input {
+  display: inline;
+  font-family: 'Cinzel Decorative', sans-serif;
+}
+
+.short {
+  background-color: #88b04b;
+}
+
+.med {
+  background-color: yellow;
+}
+
+.long {
+  background-color: red;
+}
+
+.provisions-container {
+  display: block;
+  width: 320px;
+  height: 150px;
+}
+
+.provisions-container img {
+  width: 320px;
+  height: 150px;
+}
